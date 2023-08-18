@@ -203,7 +203,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 66674:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 56552))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18991))
 
 /***/ }),
 
@@ -252,7 +252,7 @@ function WelcomeUser() {
 
 /***/ }),
 
-/***/ 56552:
+/***/ 18991:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -285,6 +285,365 @@ var fonts_ts_import_Lato_arguments_subsets_latin_weight_400_display_swap_variabl
 // EXTERNAL MODULE: ./node_modules/next/font/google/target.css?{"path":"app/fonts.ts","import":"Lato","arguments":[{"subsets":["latin"],"weight":"700","display":"swap"}],"variableName":"latoBold"}
 var fonts_ts_import_Lato_arguments_subsets_latin_weight_700_display_swap_variableName_latoBold_ = __webpack_require__(32201);
 var fonts_ts_import_Lato_arguments_subsets_latin_weight_700_display_swap_variableName_latoBold_default = /*#__PURE__*/__webpack_require__.n(fonts_ts_import_Lato_arguments_subsets_latin_weight_700_display_swap_variableName_latoBold_);
+;// CONCATENATED MODULE: ./assets/white_room.js
+/* harmony default export */ const white_room = ([
+    {
+        "type": "SCENE_ACTION",
+        "text": "INT. ART GALLERY - DAY \n A completely white, empty room in an art gallery. KRIS and GERRY enter: popping their heads in first before walking to the centre of the room."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "What is this? Is this art?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "I think it's meant to be that way."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "What makes you say that?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "I don't know. Surely they're not that stupid."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "Else we are. Is there a plaque?"
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "They scan the room for any hint."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "Maybe they forgot to put something in this room? Maybe there's a statue, or a box of paintings sitting in some office somewhere."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "It's possible..."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "Another couple poke their heads in. GERRY gestures to them."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY (CONT'D)",
+        "line": "(calling out)\n There's no art in this one!"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "(calling out)\n We checked!"
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "They smile and shrug, faux-apologetically."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "Maybe we're the art?"
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "KRIS strikes a pose like a statue from Ancient Greece."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY (CONT'D)",
+        "line": "I'm serious! It's like one of those - those happenings. Like hippie art."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "Anything's art these days..."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "So what are we supposed to do?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "Us?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "We're the art, aren't we?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "Should we pose?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "I think they'd've put in a statue if that's whwat they were going for."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "KRIS thinks."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "We could dance?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "I like that."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "They begin to waltz."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "Does this feel right?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "It's nice."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "We look good."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "We do. Hey, let's keep dancing until we fool someone."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "They keep dancing, glancing over their shoulders. Then: a third couple poke their heads in. KRIS and GERRY snap their heads back, trying their best to look serious.\n They glance around again, break off the dance and laugh."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "KRIS",
+        "line": "Mission accomplished."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "GERRY",
+        "line": "Let's move on. I want to be gone if they decide to come back."
+    }
+]);
+
+;// CONCATENATED MODULE: ./assets/risk_management.js
+/* harmony default export */ const risk_management = ([
+    {
+        "type": "SCENE_ACTION",
+        "text": "INT. LIVING ROOM - DAY \n SCRATCH and PIKE sit at a shabby table with mismatched chairs. Between them, nestled in the centre of a Lazy Susan, is a package. \n SCRATCH nibbles at their thumb and flicks their eyes from the package, to PIKE, back to the package. PIKE puts their fingertips against the Lazy Susan -- as if to give it a harmless spin. They are about to do exactly that when:"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "It's heavier than I expected."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "I can imagine."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Can't imagine carrying it around all day. Weighing you down. An hour was more than enough."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "What do we do with it?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Get rid of it? Burn it? Throw it off something?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "Sounds reasonable."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Or is that too forward-thinking?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "It's bold..."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "...that's what I'm afraid of."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "Fuck it, thinks PIKE. They spin the Lazy Susan."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "I suppose my only thought is:"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "What if she comes back for it?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "And finds it burned?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Or  thrown off something - well, just missing, really."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "Then we hold firm. We say -"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "'We've held onto it for long enough!'"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "'It's too much risk!'"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "And for too little reward."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "Good point. You might want to say that at that point."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "SCRATCH nodes, determined. The node becomes a shake."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "It would be just like her, you know? To disappear and then turn up the minute we get rid of it. (Pause) I wonder... could it be a test? As in: she's testing us? Not to get rid of it?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "Seems too important to risk on a test we're so close to failing. She knows better than to test us."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "She does."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "Suddenly, PIKE grabs the package and stands up."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "Here's the plan: we hide it. We don't ever talk about it, we don't ever acknowledge it. We just - we'll bury it, or something."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "So if she comes back, it's ready!"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "If not, it's dead and gone."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "(exhaling)\n I am relieved to hear you say that."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "(tossing the package)\n So hide it."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "Beat."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Can't we both do it?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "It's more secure if only one of us knows where it is. It's already half-lost!"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Can't you hide it?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "No. You're the brave one, not me. If I know where it is, I'll try to dump it in secret. Then it'' be the shit for both of us."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "Sound logic. Do you want to count to ten, or something?"
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "I'll make it fifty. It's not a count-to-ten level of job."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "SCRATCH",
+        "line": "This is the right thing to do."
+    },
+    {
+        "type": "CHARACTER_BLOCK",
+        "name": "PIKE",
+        "line": "Off you go. I'll count in my head and make the tea."
+    },
+    {
+        "type": "SCENE_ACTION",
+        "text": "SCRATCH runs off with the package, energised. PIKE starts mumbling numbers, but not before glancing in SCRATCH'S direction."
+    }
+]);
+
 ;// CONCATENATED MODULE: ./app/components-dark-mode/FileUploader.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -293,6 +652,8 @@ var fonts_ts_import_Lato_arguments_subsets_latin_weight_700_display_swap_variabl
 // import Card from 'react-bootstrap/Card';
 // import ProgressBar from 'react-bootstrap/ProgressBar';
 // import Button from 'react-bootstrap/Button';
+
+
 
 
 
@@ -358,33 +719,33 @@ function FileUploader({ setTheScript, setScriptTitle, isParseLoading, setParseLo
         console.log("targetFile", targetFileName);
         if (targetFileName.includes("White-Room")) {
             console.log("white");
+            promptChatGPT(white_room);
         }
         if (targetFileName.includes("Risk-Management")) {
             console.log("risk");
+            promptChatGPT(risk_management);
         }
         setUploadLoading(true);
         setBoxBorder("none");
         setParseLoad(true);
-        try {
-            const res = await fetch("/api/docAI_parse", {
-                method: "POST",
-                body: JSON.stringify(targetFileName),
-                headers: {
-                    "Content-Type": "application/json"
-                }
-            });
-            const res_data = await res.json();
-            console.log("res_data", res_data);
-            const arrayOfEntities = res_data.scriptObjects;
-            setLoadingPercentage(50);
-            console.log("returned from workbench", arrayOfEntities);
-            promptChatGPT(arrayOfEntities);
-        } catch (error) {
-            setParseError(true);
-            console.log("error", error);
-            console.error("something went wrong, check your console.");
-            router.push("/script/error");
-        }
+    // try {
+    //     const res = await fetch("/api/docAI_parse", {
+    //         method: "POST",
+    //         body: JSON.stringify(targetFileName),
+    //         headers: {"Content-Type": "application/json"}
+    //     });
+    //     const res_data: { scriptObjects: [] } = await res.json();
+    //     console.log('res_data', res_data);
+    //     const arrayOfEntities: ScriptObject[] = res_data.scriptObjects;
+    //     setLoadingPercentage(50);
+    //     console.log('returned from workbench', arrayOfEntities);
+    //     promptChatGPT(arrayOfEntities);
+    // } catch (error) {
+    //     setParseError(true);
+    //     console.log("error", error);
+    //     console.error("something went wrong, check your console.");
+    //     router.push("/script/error")
+    // }
     };
     const convertTextToSpeech = async (input)=>{
         const sizeOfFile = new Blob([

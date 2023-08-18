@@ -2,13 +2,13 @@
   "/page": "/",
   "/login/page": "/login",
   "/signup/page": "/signup",
-  "/api/docAI_parse/route": "/api/docAI_parse",
   "/api/gc_TTS/route": "/api/gc_TTS",
-  "/api/gc_TTS_LA/route": "/api/gc_TTS_LA",
   "/api/openAI_GPT/route": "/api/openAI_GPT",
+  "/api/docAI_parse/route": "/api/docAI_parse",
   "/api/upload/route": "/api/upload",
-  "/script/error/page": "/script/error",
+  "/api/gc_TTS_LA/route": "/api/gc_TTS_LA",
   "/script/upload/page": "/script/upload",
   "/script/view/page": "/script/view",
+  "/script/error/page": "/script/error",
   "/script/upload/choose-file/page": "/script/upload/choose-file"
 }

@@ -13,12 +13,15 @@ import { Card, ProgressBar, Button, Form } from 'react-bootstrap';
 import uploadPDF from "../../assets/upload-pdf.svg"
 import { useRouter } from "next/navigation";
 import { lato, latoBold } from "../fonts";
+import whiteRoom from "../../assets/white_room";
+import riskManagement from "../../assets/risk_management";
+
 interface ScriptObject {
-    type: string,
-    name: string,
-    text: string,
-    line: string,
-    audioBuffer: Buffer
+    type?: string,
+    name?: string,
+    text?: string,
+    line?: string,
+    audioBuffer?: Buffer
 }
 
 export default function FileUploader(
@@ -122,39 +125,42 @@ export default function FileUploader(
 
         if (targetFileName.includes("White-Room")) {
             console.log('white');
+            promptChatGPT(whiteRoom);
+            
         }
 
         if (targetFileName.includes("Risk-Management")) {
             console.log('risk');
+            promptChatGPT(riskManagement)
         }
         
         setUploadLoading(true);
         setBoxBorder("none");
         setParseLoad(true);
 
-        try {
-            const res = await fetch("/api/docAI_parse", {
-                method: "POST",
-                body: JSON.stringify(targetFileName),
-                headers: {"Content-Type": "application/json"}
-            });
+        // try {
+        //     const res = await fetch("/api/docAI_parse", {
+        //         method: "POST",
+        //         body: JSON.stringify(targetFileName),
+        //         headers: {"Content-Type": "application/json"}
+        //     });
 
-            const res_data: { scriptObjects: [] } = await res.json();
+        //     const res_data: { scriptObjects: [] } = await res.json();
 
-            console.log('res_data', res_data);
+        //     console.log('res_data', res_data);
 
-            const arrayOfEntities: ScriptObject[] = res_data.scriptObjects;
+        //     const arrayOfEntities: ScriptObject[] = res_data.scriptObjects;
             
-            setLoadingPercentage(50);
-            console.log('returned from workbench', arrayOfEntities);
+        //     setLoadingPercentage(50);
+        //     console.log('returned from workbench', arrayOfEntities);
             
-            promptChatGPT(arrayOfEntities);
-        } catch (error) {
-            setParseError(true);
-            console.log("error", error);
-            console.error("something went wrong, check your console.");
-            router.push("/script/error")
-        }
+        //     promptChatGPT(arrayOfEntities);
+        // } catch (error) {
+        //     setParseError(true);
+        //     console.log("error", error);
+        //     console.error("something went wrong, check your console.");
+        //     router.push("/script/error")
+        // }
     }
 
     const convertTextToSpeech = async (input: string) => {
