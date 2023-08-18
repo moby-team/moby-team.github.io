@@ -134,9 +134,10 @@ const SpeechToTextV2: FC<SpeechToTextProps> = ({ scriptToRead, chosenCharacter, 
             console.log('listening...');
         } else {
             console.log('enters reader block');
-            const copyArrayBuffer = currentLineObj.audioBuffer && currentLineObj.audioBuffer.slice(0);
-            // playAudioScript(currentLineObj.audioBuffer);
-            playAudioScript(copyArrayBuffer);
+            // const copyArrayBuffer = currentLineObj.audioBuffer && currentLineObj.audioBuffer.slice(0);
+            const buffer = new Uint8Array(currentLineObj.audioBuffer.data);
+            playAudioScript(buffer);
+            // playAudioScript(copyArrayBuffer);
         }
     }
 
@@ -194,6 +195,7 @@ const SpeechToTextV2: FC<SpeechToTextProps> = ({ scriptToRead, chosenCharacter, 
     const playAudioScript = async (arrayBuffer) => {
 
         console.log('entered audio fn');
+        console.log('asdfasd', arrayBuffer);
 
         // const currMobyLine = document.getElementById(`dialogue${currentIndex}`).innerHTML;
         // mobyTurnLineFormat(currMobyLine, true);

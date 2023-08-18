@@ -21,7 +21,11 @@ interface ScriptObject {
     name?: string,
     text?: string,
     line?: string,
-    audioBuffer?: Buffer
+    audioBuffer?: {
+        type?: string,
+        data: number[]
+    }
+    // audioBuffer?: Buffer
 }
 
 export default function FileUploader(
@@ -259,16 +263,16 @@ export default function FileUploader(
             // }
 
             console.log('returned from chat', scriptBlocks);
-            if (scriptBlocks) {
-                scriptBlocks.forEach(async (dialogueLine) => {
-                    if (dialogueLine.type !== "SCENE_ACTION") {
-                        const lineWithoutParenthesis = dialogueLine.line && dialogueLine.line.replace(/ *\([^)]*\) */g, "");
-                        console.log('line', lineWithoutParenthesis);
-                        const convertedAudioBuffer = await convertTextToSpeech(lineWithoutParenthesis);
-                        dialogueLine.audioBuffer = convertedAudioBuffer;
-                    }
-                })
-            }
+            // if (scriptBlocks) {
+            //     scriptBlocks.forEach(async (dialogueLine) => {
+            //         if (dialogueLine.type !== "SCENE_ACTION") {
+            //             const lineWithoutParenthesis = dialogueLine.line && dialogueLine.line.replace(/ *\([^)]*\) */g, "");
+            //             console.log('line', lineWithoutParenthesis);
+            //             const convertedAudioBuffer = await convertTextToSpeech(lineWithoutParenthesis);
+            //             dialogueLine.audioBuffer = convertedAudioBuffer;
+            //         }
+            //     })
+            // }
 
             // await setDialogueScript(arrayOfLines);
             // await setTheScript(arrayOfLines);
