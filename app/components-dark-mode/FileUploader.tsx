@@ -141,6 +141,8 @@ export default function FileUploader(
 
             const res_data: { scriptObjects: [] } = await res.json();
 
+            console.log('res_data', res_data);
+
             const arrayOfEntities: ScriptObject[] = res_data.scriptObjects;
             
             setLoadingPercentage(50);

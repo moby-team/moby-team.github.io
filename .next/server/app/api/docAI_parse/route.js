@@ -5,80 +5,10 @@ exports.id = 928;
 exports.ids = [928];
 exports.modules = {
 
-/***/ 39491:
-/***/ ((module) => {
-
-module.exports = require("assert");
-
-/***/ }),
-
-/***/ 14300:
-/***/ ((module) => {
-
-module.exports = require("buffer");
-
-/***/ }),
-
-/***/ 32081:
-/***/ ((module) => {
-
-module.exports = require("child_process");
-
-/***/ }),
-
-/***/ 6113:
-/***/ ((module) => {
-
-module.exports = require("crypto");
-
-/***/ }),
-
-/***/ 9523:
-/***/ ((module) => {
-
-module.exports = require("dns");
-
-/***/ }),
-
-/***/ 82361:
-/***/ ((module) => {
-
-module.exports = require("events");
-
-/***/ }),
-
 /***/ 57147:
 /***/ ((module) => {
 
 module.exports = require("fs");
-
-/***/ }),
-
-/***/ 13685:
-/***/ ((module) => {
-
-module.exports = require("http");
-
-/***/ }),
-
-/***/ 85158:
-/***/ ((module) => {
-
-module.exports = require("http2");
-
-/***/ }),
-
-/***/ 95687:
-/***/ ((module) => {
-
-module.exports = require("https");
-
-/***/ }),
-
-/***/ 41808:
-/***/ ((module) => {
-
-module.exports = require("net");
 
 /***/ }),
 
@@ -93,69 +23,6 @@ module.exports = require("os");
 /***/ ((module) => {
 
 module.exports = require("path");
-
-/***/ }),
-
-/***/ 85477:
-/***/ ((module) => {
-
-module.exports = require("punycode");
-
-/***/ }),
-
-/***/ 63477:
-/***/ ((module) => {
-
-module.exports = require("querystring");
-
-/***/ }),
-
-/***/ 12781:
-/***/ ((module) => {
-
-module.exports = require("stream");
-
-/***/ }),
-
-/***/ 71576:
-/***/ ((module) => {
-
-module.exports = require("string_decoder");
-
-/***/ }),
-
-/***/ 24404:
-/***/ ((module) => {
-
-module.exports = require("tls");
-
-/***/ }),
-
-/***/ 76224:
-/***/ ((module) => {
-
-module.exports = require("tty");
-
-/***/ }),
-
-/***/ 57310:
-/***/ ((module) => {
-
-module.exports = require("url");
-
-/***/ }),
-
-/***/ 73837:
-/***/ ((module) => {
-
-module.exports = require("util");
-
-/***/ }),
-
-/***/ 59796:
-/***/ ((module) => {
-
-module.exports = require("zlib");
 
 /***/ }),
 
@@ -219,16 +86,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const projectId = "moby-project-393418";
-const location_gc = "us"; // Format is 'us' or 'eu'
-// const processorId = 'afbbb298ff2f34d6'; // this is our previous default Doc Parser processor ID 
-// const processorId = '5fb25a11187fecdb'; // this is our custom processor ID  with Workbench - this returns CHARACTER_NAME, LINES, & SCENE_ACTIONS
-const processorId = "f1d9c2d96304cda5" // this is our custom processir v2 ID with Workbench - this returns CHARACTER_BLOCKS & SCENE_ACTIONS
-;
-const { DocumentProcessorServiceClient } = (__webpack_require__(99718).v1);
-// Instantiates a client
-// apiEndpoint regions available: eu-documentai.googleapis.com, us-documentai.googleapis.com (Required if using eu based processor)
-const client = new DocumentProcessorServiceClient();
+// const projectId = 'moby-project-393418';
+// const location_gc = 'us'; // Format is 'us' or 'eu'
+// // const processorId = 'afbbb298ff2f34d6'; // this is our previous default Doc Parser processor ID 
+// // const processorId = '5fb25a11187fecdb'; // this is our custom processor ID  with Workbench - this returns CHARACTER_NAME, LINES, & SCENE_ACTIONS
+// const processorId = 'f1d9c2d96304cda5' // this is our custom processir v2 ID with Workbench - this returns CHARACTER_BLOCKS & SCENE_ACTIONS
+// const { DocumentProcessorServiceClient } =
+//   require('@google-cloud/documentai').v1;
+// // Instantiates a client
+// // apiEndpoint regions available: eu-documentai.googleapis.com, us-documentai.googleapis.com (Required if using eu based processor)
+// const client = new DocumentProcessorServiceClient();
 // export async function POST(request: NextRequest) {
 //     // The full resource name of the processor, e.g.:
 //     // projects/project-id/locations/location/processor/processor-id
@@ -296,7 +163,9 @@ async function POST(request) {
         });
     }
     return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z.json({
-        scriptObjects: ""
+        scriptObjects: [
+            "test"
+        ]
     });
 }
 
@@ -310,7 +179,7 @@ async function POST(request) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,897,718], () => (__webpack_exec__(90761)));
+var __webpack_exports__ = __webpack_require__.X(0, [681,600], () => (__webpack_exec__(90761)));
 module.exports = __webpack_exports__;
 
 })();

@@ -270,7 +270,7 @@ async function POST(request) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,897,61], () => (__webpack_exec__(1805)));
+var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,61], () => (__webpack_exec__(1805)));
 module.exports = __webpack_exports__;
 
 })();

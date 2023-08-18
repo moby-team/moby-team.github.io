@@ -9,18 +9,18 @@ export interface entityObject {
     positions: {}
 }
 
-const projectId = 'moby-project-393418';
-const location_gc = 'us'; // Format is 'us' or 'eu'
-// const processorId = 'afbbb298ff2f34d6'; // this is our previous default Doc Parser processor ID 
-// const processorId = '5fb25a11187fecdb'; // this is our custom processor ID  with Workbench - this returns CHARACTER_NAME, LINES, & SCENE_ACTIONS
-const processorId = 'f1d9c2d96304cda5' // this is our custom processir v2 ID with Workbench - this returns CHARACTER_BLOCKS & SCENE_ACTIONS
+// const projectId = 'moby-project-393418';
+// const location_gc = 'us'; // Format is 'us' or 'eu'
+// // const processorId = 'afbbb298ff2f34d6'; // this is our previous default Doc Parser processor ID 
+// // const processorId = '5fb25a11187fecdb'; // this is our custom processor ID  with Workbench - this returns CHARACTER_NAME, LINES, & SCENE_ACTIONS
+// const processorId = 'f1d9c2d96304cda5' // this is our custom processir v2 ID with Workbench - this returns CHARACTER_BLOCKS & SCENE_ACTIONS
 
-const { DocumentProcessorServiceClient } =
-  require('@google-cloud/documentai').v1;
+// const { DocumentProcessorServiceClient } =
+//   require('@google-cloud/documentai').v1;
 
-// Instantiates a client
-// apiEndpoint regions available: eu-documentai.googleapis.com, us-documentai.googleapis.com (Required if using eu based processor)
-const client = new DocumentProcessorServiceClient();
+// // Instantiates a client
+// // apiEndpoint regions available: eu-documentai.googleapis.com, us-documentai.googleapis.com (Required if using eu based processor)
+// const client = new DocumentProcessorServiceClient();
 
 // export async function POST(request: NextRequest) {
 //     // The full resource name of the processor, e.g.:
@@ -102,5 +102,5 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ scriptObjects: scriptObjects });
     }
 
-    return NextResponse.json({ scriptObjects: '' });
+    return NextResponse.json({ scriptObjects: ['test'] });
 }

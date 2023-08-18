@@ -374,6 +374,7 @@ function FileUploader({ setTheScript, setScriptTitle, isParseLoading, setParseLo
                 }
             });
             const res_data = await res.json();
+            console.log("res_data", res_data);
             const arrayOfEntities = res_data.scriptObjects;
             setLoadingPercentage(50);
             console.log("returned from workbench", arrayOfEntities);
