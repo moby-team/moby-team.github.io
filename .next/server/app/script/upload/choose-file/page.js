@@ -333,20 +333,23 @@ function FileUploader({ setTheScript, setScriptTitle, isParseLoading, setParseLo
         const formData = new FormData();
         formData.append("file", targetFile);
         const fileToParse = inputRef.current?.files[0]?.name;
-        try {
-            const res = await fetch("/api/upload", {
-                method: "POST",
-                body: formData
-            });
-            const data = await res.json();
-            // if file has been successfully uploaded, we now want to pass it into parseFN
-            // else we want to throw an error here 
-            data.status === 200 ? parseDocument(fileToParse) : null;
-        } catch (error) {
-            console.log("error", error);
-            console.error("something went wrong, check your console there.");
-            router.push("/script/error");
-        }
+        parseDocument(fileToParse);
+    // try {
+    //     const res = await fetch("/api/upload", {
+    //       method: "POST",
+    //       body: formData
+    //     });
+    //     const data: { status: number } = await res.json();
+    //     // if file has been successfully uploaded, we now want to pass it into parseFN
+    //         // else we want to throw an error here 
+    //     data.status === 200 ? 
+    //         parseDocument(fileToParse) 
+    //         : null;
+    // } catch (error) {
+    //     console.log('error', error);
+    //     console.error("something went wrong, check your console there.");
+    //     router.push("/script/error")
+    // }
     };
     const parseDocument = async (inputFile)=>{
         const formData = new FormData();

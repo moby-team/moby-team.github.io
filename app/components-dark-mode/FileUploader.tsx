@@ -87,25 +87,27 @@ export default function FileUploader(
 
         const fileToParse = inputRef.current?.files[0]?.name;
 
-        try {
-            const res = await fetch("/api/upload", {
-              method: "POST",
-              body: formData
-            });
+        parseDocument(fileToParse);
 
-            const data: { status: number } = await res.json();
+        // try {
+        //     const res = await fetch("/api/upload", {
+        //       method: "POST",
+        //       body: formData
+        //     });
 
-            // if file has been successfully uploaded, we now want to pass it into parseFN
-                // else we want to throw an error here 
-            data.status === 200 ? 
-                parseDocument(fileToParse) 
-                : null;
+        //     const data: { status: number } = await res.json();
 
-        } catch (error) {
-            console.log('error', error);
-            console.error("something went wrong, check your console there.");
-            router.push("/script/error")
-        }
+        //     // if file has been successfully uploaded, we now want to pass it into parseFN
+        //         // else we want to throw an error here 
+        //     data.status === 200 ? 
+        //         parseDocument(fileToParse) 
+        //         : null;
+
+        // } catch (error) {
+        //     console.log('error', error);
+        //     console.error("something went wrong, check your console there.");
+        //     router.push("/script/error")
+        // }
 
     }
 
