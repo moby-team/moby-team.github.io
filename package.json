@@ -27,6 +27,7 @@
         "react-bootstrap": "^2.8.0",
         "react-bootstrap-icons": "^1.10.3",
         "react-dom": "^18.2.0",
+        "react-speech-recognition": "^3.10.0",
         "tailwindcss": "^3.3.3"
     },
     "devDependencies": {
@@ -35,5 +36,6 @@
         "encoding": "^0.1.13",
         "request": "^2.88.2",
         "typescript": "5.1.6"
-    }
+    },
+    "homepage": "https://github.com/moby-team/moby-team.github.io/"
 }

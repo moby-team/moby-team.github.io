@@ -1,7 +1,14 @@
 {
   "/page": "app/page.js",
+  "/login/page": "app/login/page.js",
+  "/signup/page": "app/signup/page.js",
   "/api/docAI_parse/route": "app/api/docAI_parse/route.js",
   "/api/gc_TTS/route": "app/api/gc_TTS/route.js",
   "/api/upload/route": "app/api/upload/route.js",
+  "/api/openAI_GPT/route": "app/api/openAI_GPT/route.js",
+  "/api/gc_TTS_LA/route": "app/api/gc_TTS_LA/route.js",
+  "/script/upload/page": "app/script/upload/page.js",
+  "/script/view/page": "app/script/view/page.js",
+  "/script/error/page": "app/script/error/page.js",
   "/script/upload/choose-file/page": "app/script/upload/choose-file/page.js"
 }

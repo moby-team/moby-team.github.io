@@ -5,19 +5,13 @@ import Button from 'react-bootstrap/Button';
 import { latoBold, poppinsBold } from '../../fonts';
 
 // navigate to this page when an error occurs
-export default function Error({
-  error,
-  // reset,
-}: {
-  error: Error
-  // reset: () => void
-}) {
+export default function Error() {
 
-  useEffect(() => {
-    console.error(error)
-  }, [error])
+//   useEffect(() => {
+//     console.error(error)
+//   }, [error])
 
-  console.log("in error comp", error);
+//   console.log("in error comp", error);
 
   return (
     <div 

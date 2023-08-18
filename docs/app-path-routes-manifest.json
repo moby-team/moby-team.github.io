@@ -1,0 +1,14 @@
+{
+  "/page": "/",
+  "/login/page": "/login",
+  "/signup/page": "/signup",
+  "/api/gc_TTS_LA/route": "/api/gc_TTS_LA",
+  "/api/docAI_parse/route": "/api/docAI_parse",
+  "/api/gc_TTS/route": "/api/gc_TTS",
+  "/api/openAI_GPT/route": "/api/openAI_GPT",
+  "/api/upload/route": "/api/upload",
+  "/script/error/page": "/script/error",
+  "/script/upload/page": "/script/upload",
+  "/script/view/page": "/script/view",
+  "/script/upload/choose-file/page": "/script/upload/choose-file"
+}
