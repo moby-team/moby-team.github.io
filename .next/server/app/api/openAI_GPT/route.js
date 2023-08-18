@@ -82,7 +82,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 29146:
+/***/ 43036:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -162,7 +162,7 @@ Please transform the given array of objects representing a movie script into a n
 
 */ 
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2FopenAI_GPT%2Froute&name=app%2Fapi%2FopenAI_GPT%2Froute&pagePath=private-next-app-dir%2Fapi%2FopenAI_GPT%2Froute.ts&appDir=%2FUsers%2Fjinhoobong%2FDesktop%2FMoby%2Fmoby.team.github.io%2Fapp&appPaths=%2Fapi%2FopenAI_GPT%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2FopenAI_GPT%2Froute&name=app%2Fapi%2FopenAI_GPT%2Froute&pagePath=private-next-app-dir%2Fapi%2FopenAI_GPT%2Froute.ts&appDir=%2FUsers%2Fjinhoobong%2FDesktop%2FMoby%2Fmoby.team.github.io%2Fapp&appPaths=%2Fapi%2FopenAI_GPT%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=&middlewareConfig=e30%3D!
 
     
 
@@ -170,7 +170,7 @@ Please transform the given array of objects representing a movie script into a n
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/openAI_GPT/route","pathname":"/api/openAI_GPT","filename":"route","bundlePath":"app/api/openAI_GPT/route"},"resolvedPagePath":"/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/api/openAI_GPT/route.ts","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/openAI_GPT/route","pathname":"/api/openAI_GPT","filename":"route","bundlePath":"app/api/openAI_GPT/route"},"resolvedPagePath":"/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/api/openAI_GPT/route.ts","nextConfigOutput":"export"}
     const routeModule = new (module_default())({
       ...options,
       userland: route_namespaceObject,
@@ -200,7 +200,7 @@ Please transform the given array of objects representing a movie script into a n
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,535], () => (__webpack_exec__(29146)));
+var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,535], () => (__webpack_exec__(43036)));
 module.exports = __webpack_exports__;
 
 })();

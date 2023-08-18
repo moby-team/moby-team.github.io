@@ -159,7 +159,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 68601:
+/***/ 90761:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -184,7 +184,7 @@ __webpack_require__.r(__webpack_exports__);
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/docAI_parse/route","pathname":"/api/docAI_parse","filename":"route","bundlePath":"app/api/docAI_parse/route"},"resolvedPagePath":"/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/api/docAI_parse/route.ts","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/docAI_parse/route","pathname":"/api/docAI_parse","filename":"route","bundlePath":"app/api/docAI_parse/route"},"resolvedPagePath":"/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/api/docAI_parse/route.ts","nextConfigOutput":"export"}
     const routeModule = new (next_dist_server_future_route_modules_app_route_module__WEBPACK_IMPORTED_MODULE_1___default())({
       ...options,
       userland: _Users_jinhoobong_Desktop_Moby_moby_team_github_io_app_api_docAI_parse_route_ts__WEBPACK_IMPORTED_MODULE_2__,
@@ -310,7 +310,7 @@ async function POST(request) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,897,718], () => (__webpack_exec__(68601)));
+var __webpack_exports__ = __webpack_require__.X(0, [681,600,21,897,718], () => (__webpack_exec__(90761)));
 module.exports = __webpack_exports__;
 
 })();

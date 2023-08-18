@@ -3128,7 +3128,15 @@ function urlToUrlWithoutFlightMarker(url) {
     const urlWithoutFlightParameters = new URL(url, location.origin);
     urlWithoutFlightParameters.searchParams.delete(_approuterheaders.NEXT_RSC_UNION_QUERY);
     if (true) {
-        if (false) {}
+        if (true) {
+            if (urlWithoutFlightParameters.pathname.endsWith("/index.txt")) {
+                // Slice off `/index.txt` from the end of the pathname
+                urlWithoutFlightParameters.pathname = urlWithoutFlightParameters.pathname.slice(0, -"/index.txt".length);
+            } else {
+                // Slice off `.txt` from the end of the pathname
+                urlWithoutFlightParameters.pathname = urlWithoutFlightParameters.pathname.slice(0, -".txt".length);
+            }
+        }
     }
     return urlWithoutFlightParameters;
 }
@@ -5272,7 +5280,13 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
     try {
         let fetchUrl = new URL(url);
         if (true) {
-            if (false) {}
+            if (true) {
+                if (fetchUrl.pathname.endsWith("/")) {
+                    fetchUrl.pathname += "index.txt";
+                } else {
+                    fetchUrl.pathname += ".txt";
+                }
+            }
         }
         // Add unique cache query to avoid caching conflicts on CDN which don't respect to Vary header
         fetchUrl.searchParams.set(_approuterheaders.NEXT_RSC_UNION_QUERY, uniqueCacheQuery);
@@ -5286,7 +5300,11 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
         const contentType = res.headers.get("content-type") || "";
         let isFlightResponse = contentType === _approuterheaders.RSC_CONTENT_TYPE_HEADER;
         if (true) {
-            if (false) {}
+            if (true) {
+                if (!isFlightResponse) {
+                    isFlightResponse = contentType.startsWith("text/plain");
+                }
+            }
         }
         // If fetch returns something different than flight response handle it like a mpa navigation
         // If the fetch was not 200, we also handle it like a mpa navigation

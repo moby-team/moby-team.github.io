@@ -19,7 +19,7 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 756:
+/***/ 55391:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -110,7 +110,7 @@ we want to avoid adding it into the DB */ async function POST(request) {
     }
 }
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fupload%2Froute&name=app%2Fapi%2Fupload%2Froute&pagePath=private-next-app-dir%2Fapi%2Fupload%2Froute.ts&appDir=%2FUsers%2Fjinhoobong%2FDesktop%2FMoby%2Fmoby.team.github.io%2Fapp&appPaths=%2Fapi%2Fupload%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fupload%2Froute&name=app%2Fapi%2Fupload%2Froute&pagePath=private-next-app-dir%2Fapi%2Fupload%2Froute.ts&appDir=%2FUsers%2Fjinhoobong%2FDesktop%2FMoby%2Fmoby.team.github.io%2Fapp&appPaths=%2Fapi%2Fupload%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=&middlewareConfig=e30%3D!
 
     
 
@@ -118,7 +118,7 @@ we want to avoid adding it into the DB */ async function POST(request) {
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/upload/route","pathname":"/api/upload","filename":"route","bundlePath":"app/api/upload/route"},"resolvedPagePath":"/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/api/upload/route.ts","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/upload/route","pathname":"/api/upload","filename":"route","bundlePath":"app/api/upload/route"},"resolvedPagePath":"/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/api/upload/route.ts","nextConfigOutput":"export"}
     const routeModule = new (module_default())({
       ...options,
       userland: route_namespaceObject,
@@ -148,7 +148,7 @@ we want to avoid adding it into the DB */ async function POST(request) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [681,600,58], () => (__webpack_exec__(756)));
+var __webpack_exports__ = __webpack_require__.X(0, [681,600,58], () => (__webpack_exec__(55391)));
 module.exports = __webpack_exports__;
 
 })();
