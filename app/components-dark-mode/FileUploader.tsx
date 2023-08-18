@@ -165,6 +165,8 @@ export default function FileUploader(
 
     const convertTextToSpeech = async (input: string) => {
 
+        console.log('input', input);
+
         const sizeOfFile = new Blob([input]).size;
 
         setLoadingPercentage(100); //moved here so we can navigate to /view once script is fully loaded
@@ -261,7 +263,7 @@ export default function FileUploader(
                 scriptBlocks.forEach(async (dialogueLine) => {
                     if (dialogueLine.type !== "SCENE_ACTION") {
                         const lineWithoutParenthesis = dialogueLine.line && dialogueLine.line.replace(/ *\([^)]*\) */g, "");
-
+                        console.log('line', lineWithoutParenthesis);
                         const convertedAudioBuffer = await convertTextToSpeech(lineWithoutParenthesis);
                         dialogueLine.audioBuffer = convertedAudioBuffer;
                     }

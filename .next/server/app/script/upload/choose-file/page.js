@@ -748,6 +748,7 @@ function FileUploader({ setTheScript, setScriptTitle, isParseLoading, setParseLo
     // }
     };
     const convertTextToSpeech = async (input)=>{
+        console.log("input", input);
         const sizeOfFile = new Blob([
             input
         ]).size;
@@ -828,6 +829,7 @@ function FileUploader({ setTheScript, setScriptTitle, isParseLoading, setParseLo
                 scriptBlocks.forEach(async (dialogueLine)=>{
                     if (dialogueLine.type !== "SCENE_ACTION") {
                         const lineWithoutParenthesis = dialogueLine.line && dialogueLine.line.replace(/ *\([^)]*\) */g, "");
+                        console.log("line", lineWithoutParenthesis);
                         const convertedAudioBuffer = await convertTextToSpeech(lineWithoutParenthesis);
                         dialogueLine.audioBuffer = convertedAudioBuffer;
                     }
