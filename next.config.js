@@ -6,5 +6,5 @@
 // module.exports = nextConfig;
 
 module.exports = {
-    distDir: 'docs', 
+    distDir: 'dist', 
 }
