@@ -39,7 +39,7 @@ const ScriptView: FC<ScriptViewProps> = ({ script, clickStart }) => {
                     <Modal.Body 
                         style={{ background: "transparent", border: "none", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}
                     >
-                        <p className={interBold.className} style={{ fontSize: "24px", textAlign: "center", color: "#fff" }}>Say "start" to begin reading or click the Start button. <br/> Click the Restart Script button at any time to go from the top.</p>
+                        <p className={interBold.className} style={{ fontSize: "24px", textAlign: "center", color: "#fff" }}>Say "start" to begin reading or click the Start button.</p>
                         {/* need to implement how to start the script */}
                         <Button onClick={() => setShow(false)} style={{ padding: "15px", width: "94px", height: "50px", backgroundColor: "#D65600", color: "#fff", lineHeight: "100%", border: "none", marginTop: "32px"}}>Got it</Button>
                     </Modal.Body>

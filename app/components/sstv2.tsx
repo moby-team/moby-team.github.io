@@ -50,7 +50,7 @@ const SpeechToTextV2: FC<SpeechToTextProps> = ({ scriptToRead, chosenCharacter, 
             // currInnerHtml = currLineInnerHtml; // to keep track of what it was previously
             // newInnerHtml = currInnerHtml.replace(currInnerHtml, '<span style="background-color:yellow;">' + currInnerHtml + '</span>');
             // document.getElementById(lineId).innerHTML = newInnerHtml;
-            document.getElementById(lineId).style.backgroundColor = "rgba(255,255,0,0.7)";
+            document.getElementById(lineId).style.backgroundColor = "#558397";
         } else {
             console.log('in user end turn');
             userTurn = false;
@@ -74,7 +74,7 @@ const SpeechToTextV2: FC<SpeechToTextProps> = ({ scriptToRead, chosenCharacter, 
             // currInnerHtml = currLineInnerHtml; // to keep track of what it was previously
             // newInnerHtml = currInnerHtml.replace(currInnerHtml, '<span style="background-color:rgba(236, 85, 0, 0.3)">' + currInnerHtml + '</span>');
             // document.getElementById(lineId).innerHTML = newInnerHtml;
-            document.getElementById(lineId).style.backgroundColor = "rgba(214, 86, 0, 0.6)";
+            document.getElementById(lineId).style.backgroundColor = "#4D4C4C";
         } else {
             console.log('in moby end turn');
             mobyTurn = false;
