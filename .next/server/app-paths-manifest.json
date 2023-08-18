@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/api/docAI_parse/route": "app/api/docAI_parse/route.js",
+  "/api/gc_TTS/route": "app/api/gc_TTS/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
+  "/script/upload/choose-file/page": "app/script/upload/choose-file/page.js"
+}

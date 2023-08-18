@@ -1,0 +1,213 @@
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Poppins\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":\"700\",\"display\":\"swap\"}],\"variableName\":\"poppinsBold\"}",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components-dark-mode/MobyNavbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components-dark-mode/MobyNavbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/script/upload/choose-file/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/script/upload/choose-file/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/globals.css": {
+      "id": "(app-client)/./app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/components-dark-mode/MobyNavbar.tsx": {
+      "id": "(app-client)/./app/components-dark-mode/MobyNavbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/script/layout:static/chunks/app/script/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/script/upload/choose-file/page.tsx": {
+      "id": "(app-client)/./app/script/upload/choose-file/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/script/upload/choose-file/page:static/chunks/app/script/upload/choose-file/page.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/page": [
+      "static/css/app/page.css"
+    ],
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/layout": [
+      "static/css/app/layout.css"
+    ],
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/script/layout": [
+      "static/css/app/script/layout.css"
+    ],
+    "/Users/jinhoobong/Desktop/Moby/moby.team.github.io/app/script/upload/choose-file/page": [
+      "static/css/app/script/upload/choose-file/page.css"
+    ]
+  }
+}
